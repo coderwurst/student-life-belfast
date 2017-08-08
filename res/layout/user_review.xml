@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name:"
+            android:id="@+id/textView" android:layout_gravity="left|center_vertical" android:layout_marginTop="20dp"/>
+    <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Email:"
+            android:id="@+id/textView1" android:layout_gravity="left|center_vertical" android:layout_marginTop="20dp"/>
+    <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place Name:"
+            android:id="@+id/textView2" android:layout_gravity="left|center_vertical" android:layout_marginTop="20dp"/>
+    <TextView android:id="@+id/textViewPlaceName" android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Large Text" android:textAppearance="?android:attr/textAppearanceLarge"
+              android:layout_gravity="left|center_vertical" android:layout_marginLeft="100dp"
+              android:layout_marginTop="20dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place Type:"
+            android:id="@+id/textView3" android:layout_gravity="left|center_vertical" android:layout_marginTop="20dp"/>
+    <TextView android:id="@+id/textViewPlaceType" android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Large Text" android:textAppearance="?android:attr/textAppearanceLarge"
+              android:layout_gravity="left|center_vertical" android:layout_marginLeft="100dp"
+              android:layout_marginTop="20dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place Rating"
+            android:id="@+id/textView4" android:layout_gravity="left|center_vertical" android:layout_marginTop="20dp"/>
+    <RatingBar
+            android:layout_width="wrap_content"
+            android:numStars="3"
+            android:layout_height="wrap_content"
+            android:id="@id/ratingBarPlaceRating" android:layout_gravity="center" android:focusableInTouchMode="false"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@id/userReviewToHome" android:layout_gravity="right|center_vertical"
+            android:background="@drawable/app_home_125x50"/>
+
+</LinearLayout>

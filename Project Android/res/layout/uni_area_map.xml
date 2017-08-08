@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+
+    <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:background="@drawable/uni_area_map_543x732"
+            android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:id="@+id/frameLayout"
+            android:layout_margin="10dp">
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/map_screen_to_eat_icon_50x50"
+                    android:id="@id/uni_to_eat1" android:layout_gravity="right|center_vertical"
+                    android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+                    android:layout_marginTop="180dp" android:layout_marginLeft="230dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/map_screen_to_eat_icon_50x50"
+                    android:id="@id/uni_to_eat2" android:layout_gravity="right|center_vertical"
+                    android:layout_toRightOf="@id/uni_to_party3" android:layout_alignTop="@id/uni_to_eat1"
+                    android:layout_marginLeft="230dp" android:layout_marginTop="120dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/map_screen_to_eat_icon_50x50"
+                    android:id="@id/uni_to_eat3" android:layout_gravity="right|center_vertical"
+                    android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/map_screen_to_shop_icon_50x50"
+                    android:id="@id/uni_to_shop1" android:layout_gravity="right|center_vertical"
+                    android:layout_toRightOf="@id/uni_to_party1" android:layout_alignTop="@id/uni_to_shop2"
+                    android:layout_marginLeft="230dp" android:layout_marginTop="30dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/map_screen_to_shop_icon_50x50"
+                    android:id="@id/uni_to_shop2" android:layout_gravity="right|center_vertical"
+                    android:layout_alignLeft="@id/uni_to_eat1" android:layout_alignParentTop="true"
+                    android:layout_marginTop="30dp" android:layout_marginLeft="120dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/map_screen_to_shop_icon_50x50"
+                    android:id="@id/uni_to_shop3" android:layout_gravity="right|center_vertical"
+                    android:layout_alignLeft="@id/uni_to_party2" android:layout_alignParentTop="true"
+                    android:layout_marginTop="250dp" android:layout_marginLeft="10dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/map_screen_to_party_icon_50x50"
+                    android:id="@id/uni_to_party1" android:layout_gravity="right|center_vertical"
+                    android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+                    android:layout_marginLeft="160dp" android:layout_marginTop="120dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/map_screen_to_party_icon_50x50"
+                    android:id="@id/uni_to_party2" android:layout_gravity="right|center_vertical"
+                    android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+                    android:layout_marginTop="250dp" android:layout_marginLeft="150dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/map_screen_to_party_icon_50x50"
+                    android:id="@id/uni_to_party3" android:layout_gravity="right|center_vertical"
+                    android:layout_alignParentLeft="true" android:layout_marginLeft="100dp"
+                    android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/app_home_125x50"
+                    android:id="@id/uni_to_map_screen" android:layout_gravity="right|center_vertical"
+                    android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+                    android:layout_marginTop="530dp"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>

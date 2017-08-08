@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:background="@drawable/lagan_area_map_543x732"
+            android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:id="@+id/frameLayout"
+            android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp">
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@id/lagan_to_eat1"
+                    android:background="@drawable/map_screen_to_eat_icon_50x50"
+                    android:layout_alignParentLeft="false" android:layout_alignParentBottom="false"
+                    android:layout_marginLeft="30dp" android:layout_marginTop="400dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@id/lagan_to_eat2"
+                    android:background="@drawable/map_screen_to_eat_icon_50x50" android:layout_alignParentLeft="false"
+                    android:layout_alignParentBottom="false" android:layout_marginLeft="10dp"
+                    android:layout_marginTop="280dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@id/lagan_to_eat3"
+                    android:background="@drawable/map_screen_to_eat_icon_50x50"
+                    android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="320dp" android:layout_marginLeft="110dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:id="@id/lagan_to_shop1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/map_screen_to_shop_icon_50x50"
+                    android:layout_marginTop="340dp" android:layout_marginLeft="10dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@id/lagan_to_shop2"
+                    android:background="@drawable/map_screen_to_shop_icon_50x50"
+                    android:layout_marginTop="280dp" android:layout_marginLeft="100dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@id/lagan_to_party1"
+                    android:background="@drawable/map_screen_to_party_icon_50x50"
+                    android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@id/lagan_to_party2"
+                    android:background="@drawable/map_screen_to_party_icon_50x50"
+                    android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+                    android:layout_marginLeft="50dp" android:layout_marginTop="210dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@id/lagan_to_party3"
+                    android:background="@drawable/map_screen_to_party_icon_50x50"
+                    android:layout_alignLeft="@id/lagan_to_eat3" android:layout_below="@id/lagan_to_eat2"
+                    android:layout_marginLeft="30dp" android:layout_marginTop="150dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@id/lagan_to_shop3"
+                    android:background="@drawable/map_screen_to_shop_icon_50x50"
+                    android:layout_alignParentLeft="false" android:layout_alignParentBottom="false"
+                    android:layout_marginLeft="100dp" android:layout_marginTop="350dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@id/lagan_to_map_screen"
+                    android:background="@drawable/app_home_125x50"
+                    android:layout_alignParentRight="false" android:layout_alignParentTop="false"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginLeft="300dp" android:layout_marginTop="480dp"/>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

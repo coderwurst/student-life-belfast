@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:action="http://schemas.android.com/apk/res/com.uniulster.Project_Android"
+          package="com.uniulster.Project_Android"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="9"/>
+    <application android:label="@string/app_name" android:icon="@drawable/homescreen_logo_400x400">
+
+        <activity android:name="Splash"
+                  android:label="@string/app_name"
+                  android:theme="@drawable/splash_screen_welcome">
+
+        <intent-filter>
+                       <action android:name="android.intent.action.MAIN"/>
+                       <category android:name="android.intent.category.LAUNCHER"/>
+        </intent-filter>
+        </activity>
+
+
+        <activity android:name="MyActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+
+        <activity android:label="@string/app_name" android:name="MapScreen" android:screenOrientation="portrait" />  <!-- code to lock orientation-->
+        <activity android:label="@string/app_name" android:name="UniversityArea" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="UserReview" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="UserSubmit" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="CityCentre" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="LaganArea" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name="TheIcons" android:screenOrientation="portrait" />
+    </application>
+</manifest>

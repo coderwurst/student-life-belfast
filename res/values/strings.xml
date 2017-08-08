@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Student Life in Belfast</string>
+
+    <!--home page strings-->
+     <string name="home_to_map_screen">ENTER</string>
+     <string name="home_to_exit_app">QUIT</string>
+
+
+    <!--Belfast Map Screen-->
+    <string name="go_to_lagan_screen">1. Lagan and Waterfront Area</string>
+    <string name="go_to_city_screen">2. City Centre Area</string>
+    <string name="go_to_uni_screen">3. University Area</string>
+
+    <string name="map_to_icon_screen">ICONS</string>
+    <string name="map_to_home_screen">HOME</string>
+    <string name="map_to_exit_app">QUIT</string>
+
+    <!--Lagan Area Screen-->
+    <!--SHOP: Topshop-->
+    <string name="lagan_to_shop1">Topshop</string>
+    <string name="topshop_info">www.topshop.com \nThe latest trends are at Topshop</string>
+    <string name="topshop_offer">"<b>Show this at the till to redeem offer</b> \n10% off for students! \n<i>Terms and conditions apply</i></string>
+
+    <!--SHOP: Urban Outfitters-->
+    <string name="lagan_to_shop2">Urban Outfitters</string>
+    <string name="urban_info">www.urbanoutfitters.co.uk \nWomen\'s and men\'s fashion and lifestyle from the streets of Europe</string>
+
+    <!--SHOP: HOF-->
+    <string name="lagan_to_shop3">House of Fraser</string>
+    <string name="hof_info">www.houseoffraser.co.uk \nThe UK\'s Premium Department Store of choice</string>
+
+    <!--EAT: Boojum-->
+    <string name="lagan_to_eat1">Boojum</string>
+    <string name="boojum_info">www.boojummex.com \nA casual burrito bar serving homemade Mexican food</string>
+
+    <!--EAT: Nandos-->
+    <string name="lagan_to_eat2">Nando\'s</string>
+    <string name="nandos_info">www.nandos.co.uk \nSpecialising in chicken dishes from Portugal</string>
+    <string name="nandos_offer">"<b>Show this at the till to redeem offer</b> \nFree bottomless soft drink with any main meal \n<i>Terms and conditions apply</i></string>
+
+    <!--EAT: Malmaison-->
+    <string name="lagan_to_eat3">Malmaison</string>
+    <string name="mal_info">www.malmaison.com \nIconic dishes, prepared with a modern twist and served with passion and personality</string>
+
+    <!--PARTY: Box-->
+    <string name="lagan_to_party1">The Box Nightclub</string>
+    <string name="box_info">www.boxnightclub.com \nBelfast\'s largest nightclub</string>
+    <string name="box_offer">"<b>Show this at the door to redeem offer</b>  \nFree entry before midnight (Mon-Thurs only) \n<i>Terms and conditions apply</i></string>
+
+    <!--PARTY: AlleyCat-->
+    <string name="lagan_to_party2">Alley Cat</string>
+    <string name="ac_info">www.alleycatbelfast.com \nCats, cocktails, beers, burgers n\' dogs</string>
+
+    <!--PARTY: Ollie's-->
+    <string name="lagan_to_party3">Ollie\'s</string>
+    <string name="ollies_info">www.olliesbelfast.com \nBelfast\'s most exclusive nightclub</string>
+
+    <string name="lagan_special1">Party 1</string>
+    <string name="lagan_special2">Party 2</string>
+    <string name="lagan_special3">Party 3</string>
+
+    <string name="lagan_to_icon_screen">ICONS</string>
+    <string name="lagan_to_map_screen">MAP</string>
+    <string name="lagan_to_exit_app">QUIT</string>
+
+
+    <!--City Centre Screen-->
+    <!--SHOP: Primark-->
+    <string name="centre_to_shop1">Primark</string>
+    <string name="primark_info">www.primark.co.uk \nBelfast\'s favorite department store - You will always find that unexpected bargain </string>
+
+    <!--SHOP: Next-->
+    <string name="centre_to_shop2">Next</string>
+    <string name="next_info">www.next.co.uk \nSmart casual for him and her, friendly staff and a wide selection </string>
+    <string name="next_offer">"<b>Show this at the till to redeem offer</b> \n10% off for students! \n<i>Terms and conditions apply</i></string>
+
+    <!--SHOP: Zara-->
+    <string name="centre_to_shop3">Zara</string>
+    <string name="zara_info">www.zara.com \nEnjoy the latest in fashion for women, men and kids </string>
+
+    <!--EAT: McDonalds-->
+    <string name="centre_to_eat1">McDonalds</string>
+    <string name="mcd_info">www.mcdonalds.co.uk \nI\'m lovin\' it (what more can you say\?) </string>
+
+    <!--EAT: Subway-->
+    <string name="centre_to_eat2">Subway</string>
+    <string name="subway_info">www.subway.co.uk \nSubway is a great solution to your hunger problems. Sub sandwiches filled with fresh ingredients </string>
+
+    <!--EAT: Clements-->
+    <string name="centre_to_eat3">Clements</string>
+    <string name="clements_info">www.facebook.com/ClementsCoffeeShops \nA lovely and quaint cafe. Perfect for a lunch or a quiet coffee with a friend. </string>
+    <string name="clements_offer">"<b>Show this at the till to redeem offer</b> \nOne free refill of tea, filter coffee or americano \n<i>Terms and conditions apply</i></string>
+
+    <!--PARTY: Duke-->
+    <string name="centre_to_party1">Duke of York</string>
+    <string name="duke_info">www.dukeofyorkbelfast.com \nA charming pub with friendly staff and a homely feel, right in the trendiest part of town </string>
+
+    <!--PARTY: Aptmnt-->
+    <string name="centre_to_party2">The Apartment</string>
+    <string name="aptmnt_info">www.apartmentbelfast.com \nFor thirst quenching cocktails and a cold beer right in the centre of town </string>
+
+    <!--PARTY: Thompsons-->
+    <string name="centre_to_party3">Thompsons</string>
+    <string name="thompsons_info">www.clubthompsons.com \nPumping tunes and late night opening times - the place to go for the people burning the candle at both ends</string>
+    <string name="thompsons_offer">"<b>Show this at the door to redeem offer</b> \nFree entry on Wednesday nights! \n<i>Terms and conditions apply</i></string>
+
+    <string name="centre_special1">Party 1</string>
+    <string name="centre_special2">Party 2</string>
+    <string name="centre_special3">Party 3</string>
+
+    <string name="centre_to_icon_screen">ICONS</string>
+    <string name="centre_to_map_screen">MAP</string>
+    <string name="centre_to_exit_app">QUIT</string>
+
+
+    <!--Uni Area Screen-->
+    <!--SHOP: Rusty-->
+    <string name="uni_to_shop1">The Rusty Zip</string>
+    <string name="rusty_info">www.therustyzip.com \nBelfast\'s leading original vintage store </string>
+
+    <!--SHOP: QUB Shop-->
+    <string name="uni_to_shop2">QUB Shop</string>
+    <string name="qub_info">www.qub.ac.uk \nFor uni branded hoodies, tees and other souvenirs </string>
+    <string name="qub_offer">"<b>Show this at the till to redeem offer</b> \n15% Off! \n<i>Terms and conditions apply</i></string>
+
+    <!--SHOP: Clothesline-->
+    <string name="uni_to_shop3">Clothesline</string>
+    <string name="clothesline_info">www.clothesline\-online.com \nHigh quality ladies fashion with a twist </string>
+
+    <!--EAT: Chip-->
+    <string name="uni_to_eat1">The Chip Company</string>
+    <string name="chip_info">www.thechipcompany.co.uk" \nBelfast\'s BEST Fast Food Restaurants </string>
+
+    <!--EAT: Maggie-->
+    <string name="uni_to_eat2">Maggie May\'s</string>
+    <string name="maggie_info">www.twitter.com\/MaggieMaysCafe \nHearty breakfasts and great value for money meals in a laid back atmosphere </string>
+
+    <!--EAT: Villa -->
+    <string name="uni_to_eat3">Villa Italia</string>
+    <string name="villa_info">www.villaitaliarestaurant.co.uk \nThe subtle smell of garlic in the air. .Italian speaking waiters. One cannot help but feel transported to La Bella Italia itself\! </string>
+    <string name="villa_offer">"<b>Show this at the till to redeem offer</b> \nTwo courses for £12! \n<i>Terms and conditions apply</i></string>
+
+    <!--PARTY: MCLUB-->
+    <string name="uni_to_party1">M Club</string>
+    <string name="mclub_info">www.mclub.co.uk \nOne of NI\'s premier clubbing venues, established over 18 year and with state of the art sound and lighting </string>
+    <string name="mclub_offer">"<b>Show this at the door to redeem offer</b> \nOne free drink on entry (Monday nights only) \n<i>Terms and conditions apply</i></string>
+
+    <!--PARTY: QUBSU-->
+    <string name="uni_to_party2">QUBSU</string>
+    <string name="qubsu_info">www.qubsu.co.uk \nThe heart of all the social goings on at QUB, gigs and club nights all year round </string>
+
+    <!--PARTY: Eg-->
+    <string name="uni_to_party3">The Eg</string>
+    <string name="eg_info">www.egbar.co.uk \nYe Olde Eglantine Inn \(also known as The \'Eg\'\) prides its self on having an emphasis on having fun times in a party atmosphere </string>
+
+
+    <string name="uni_special1">Party 1</string>
+    <string name="uni_special2">Party 2</string>
+    <string name="uni_special3">Party 3</string>
+
+    <string name="uni_to_icon_screen">ICONS</string>
+    <string name="uni_to_map_screen">MAP</string>
+    <string name="uni_to_exit_app">QUIT</string>
+    <!--Lagan Area Screen-->
+
+    <!--Icon Screen-->
+    <string name="icon_to_shop">Places to SHOP!</string>
+    <string name="icon_to_eat">Places to EAT!</string>
+    <string name="icon_to_party">Places to PARTY!!</string>
+    <string name="icon_rating">Value for Money</string>
+    <string name="icon_to_map">MAP</string>
+    <string name="icon_special_deals">Student Offers</string>
+
+    <!--User Submit Screen-->
+    <string name="user_name">name:</string>
+    <string name="user_email">email address:</string>
+    <string name="establishment_name">name of establishment:</string>
+    <string name="establishment_type">type of establishment:</string>
+    <string name="establishment_rating">rating:</string>
+
+
+</resources>
